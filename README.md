@@ -17,10 +17,10 @@ pip install -e git+https://github.com/openai/gym.git@master#egg=gym
 # Bokeh vizualization (maiores detalhes em github.com/bokeh/jupyter_bokeh)
 pip install bokeh jupyter_bokeh
 
+# jupyter lab (IPython notebooks)
+pip install jupyterlab
+
 # opcional
 jupyter labextension install @jupyter-widgets/jupyterlab-manager
 jupyter labextension install @bokeh/jupyter_bokeh
-
-# jupyter lab (IPython notebooks)
-pip install jupyterlab
 ```
