@@ -1,26 +1,16 @@
-# curso-verao-rl-ime-2021
+# Curso de Verão - IME-USP - 2021 - Introdução ao Aprendizado por Reforço
 
-# Instalação
+Nesse repositório colocaremos todo código necessário para os exercícios práticos de implementação do curso.
+
+## Instalação
+
+Sugerimos a instalação dos pacotes e bibliotecas que usaremos no curso em algum ambiente virtual de sua escolha. Uma possibilidade é usar o `virtualenv` conforme instruções abaixo:
 
 ```bash
 # instalar criador de ambiente virtual
 # https://virtualenv.pypa.io/en/latest/installation.html
 virtualenv -p python3.7 .  # criar ambiente virtual
 source bin/activate        # ativar ambiente virtual
-
-# atualizar pip
-pip install -U pip setuptools
-
-# instalar OpenAI gym do branch master ===> IMPORTANTE!
-pip install -e git+https://github.com/openai/gym.git@master#egg=gym
-
-# Bokeh vizualization (maiores detalhes em github.com/bokeh/jupyter_bokeh)
-pip install bokeh jupyter_bokeh
-
-# jupyter lab (IPython notebooks)
-pip install jupyterlab
-
-# opcional
-jupyter labextension install @jupyter-widgets/jupyterlab-manager
-jupyter labextension install @bokeh/jupyter_bokeh
 ```
+
+Os requisitos de instalação para cada aula prática se encontram no respectivo arquivo README.md de cada aula. Por exemplo, para a aula 1 siga as instruções do arquivo `aula1/README.md`. Se prefirir, é possível instalar as dependências de pacotes diretamente de dentro de cada notebook (procure pela subseção `Instalação`).
